@@ -1,6 +1,6 @@
-import Hello from "./components/hello";
+import Hello from "../components/hello";
 const Home = () => {
-  console.log("what type of component i am?");
+  console.log("what type of component am i");
   return (
     <main>
       <div className="text-5xl underline">Welcome to next js</div>
